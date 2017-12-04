@@ -45,7 +45,7 @@ namespace Testing
 
                 var sum = calc.Result();
 
-                sum.Should().Be(10);
+                sum.Should().Be(0);
             }
         }
 
