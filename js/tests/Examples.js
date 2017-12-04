@@ -1,4 +1,6 @@
 import assert from 'assert';
+import chai from 'chai';
+chai.should();
 
 class Calculator {
     constructor() {
@@ -72,7 +74,7 @@ describe("Calculator specification", () => {
             assert.equal(0, result)
         });
 
-        it("should return zero by default with fluent assertions", () => {
+        it("should return zero by default with chai", () => {
             const calc = new Calculator();
 
             const result = calc.sum();
